@@ -7,12 +7,12 @@ A [Gemini CLI](https://geminicli.com) extension that gives Gemini native tools f
 - **Contract review** — parties, term, renewal, obligations, and flagged risk clauses
 - Plus general parsing, field extraction, classification, document comparison/splitting, and ~30 more tools from the same API
 
-Under the hood it wires up the [`@kynth/api-mcp`](https://www.npmjs.com/package/@kynth/api-mcp) MCP server (also in the official MCP registry as `studio.kynth/core`).
+Under the hood it wires up the [`@kynth/api-mcp`](https://www.npmjs.com/package/@kynth/api-mcp) MCP server (also in the official MCP registry as `studio.compound/core`).
 
 ## Install
 
 ```bash
-gemini extensions install https://github.com/kyisaiah47/kynth-gemini-extension
+gemini extensions install https://github.com/kyisaiah47/compound-gemini-extension
 ```
 
 You'll be prompted for your Kynth API key during install.

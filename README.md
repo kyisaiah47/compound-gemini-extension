@@ -1,6 +1,6 @@
 # ParseRail for Gemini CLI
 
-A [Gemini CLI](https://geminicli.com) extension that gives Gemini native tools for financial-document work, powered by [ParseRail](https://api.kynth.studio):
+A [Gemini CLI](https://geminicli.com) extension that gives Gemini native tools for financial-document work, powered by [ParseRail](https://api.thecompound.tech):
 
 - **Financial-document extraction** — invoices, receipts, bank/card statements, and embedded tables → schema-validated JSON (vendor, line items, totals, normalized transactions)
 - **PII redaction** — strip names, emails, phones, SSNs, and card numbers from text before you store or log it
@@ -19,7 +19,7 @@ You'll be prompted for your Kynth API key during install.
 
 ## Get a key
 
-Sign up at **[api.kynth.studio](https://api.kynth.studio)** — free, no card, **500 credits every month**. Keys look like `ksk_live_…`.
+Sign up at **[api.thecompound.tech](https://api.thecompound.tech)** — free, no card, **500 credits every month**. Keys look like `ksk_live_…`.
 
 Billing is pay-per-call from a credit wallet, and **you're only charged when a call succeeds** — errors cost nothing.
 

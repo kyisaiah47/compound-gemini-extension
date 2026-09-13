@@ -1,11 +1,11 @@
 {
-  "name": "kynth-core",
+  "name": "compound-core",
   "version": "0.1.0",
   "description": "Financial-document extraction (invoices, receipts, statements, tables), PII redaction, and contract review from ParseRail — schema-validated JSON, billed only on success.",
   "mcpServers": {
-    "kynth-core": {
+    "compound-core": {
       "command": "npx",
-      "args": ["-y", "@kynth/api-mcp"]
+      "args": ["-y", "@compound/api-mcp"]
     }
   },
   "contextFileName": "GEMINI.md",
@@ -13,7 +13,7 @@
     {
       "name": "ParseRail API Key",
       "description": "Your ParseRail API key (ksk_live_…). Free at https://api.thecompound.tech — 500 credits/month, no card required.",
-      "envVar": "KYNTH_API_KEY",
+      "envVar": "COMPOUND_API_KEY",
       "sensitive": true
     }
   ]

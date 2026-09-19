@@ -1,19 +1,19 @@
 {
-  "name": "compound-core",
-  "version": "0.1.0",
-  "description": "Financial-document extraction (invoices, receipts, statements, tables), PII redaction, and contract review from ParseRail — schema-validated JSON, billed only on success.",
+  "name": "parserail",
+  "version": "0.2.0",
+  "description": "Financial-document extraction (invoices, receipts, statements, tables), PII redaction, and contract review from ParseRail. Schema-validated JSON, billed only on success.",
   "mcpServers": {
-    "compound-core": {
+    "parserail": {
       "command": "npx",
-      "args": ["-y", "@compound/api-mcp"]
+      "args": ["-y", "parserail-mcp"]
     }
   },
   "contextFileName": "GEMINI.md",
   "settings": [
     {
       "name": "ParseRail API Key",
-      "description": "Your ParseRail API key (ksk_live_…). Free at https://api.thecompound.tech — 500 credits/month, no card required.",
-      "envVar": "COMPOUND_API_KEY",
+      "description": "Your ParseRail API key (ksk_live_...). Free at https://parserail.thecompound.tech, 500 credits a month, no card required.",
+      "envVar": "PARSERAIL_API_KEY",
       "sensitive": true
     }
   ]

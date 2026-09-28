@@ -1,0 +1,7 @@
+{
+ "product": "ParseRail for Gemini CLI",
+ "parent": "ParseRail",
+ "domain": "https://parserail.thecompound.tech",
+ "tagline": "Financial-document extraction, PII redaction and contract review from ParseRail, in Gemini CLI.",
+ "description": "Invoices, receipts, statements and tables to schema-validated JSON, billed only on success."
+}

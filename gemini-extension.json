@@ -12,7 +12,7 @@
   "settings": [
     {
       "name": "ParseRail API Key",
-      "description": "Your ParseRail API key (ksk_live_...), from https://parserail.thecompound.tech. Calls spend prepaid credits. There is no free tier.",
+      "description": "You get your ParseRail API key (ksk_live_...) from https://parserail.thecompound.tech. Calls spend prepaid credits. ParseRail has no free tier.",
       "envVar": "PARSERAIL_API_KEY",
       "sensitive": true
     }

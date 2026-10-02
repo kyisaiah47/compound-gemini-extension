@@ -43,4 +43,4 @@ Prefer the specialized tool when the document type is known — the output schem
 
 - `parserail_account` — check the wallet's credit balance (free, read-only)
 - A `401 unauthorized` error means the `PARSERAIL_API_KEY` is missing or wrong (keys start `ksk_live_`)
-- A `402 insufficient_credits` error means the wallet is empty — top up at https://parserail.thecompound.tech or wait for the monthly free refresh
+- A `402 insufficient_credits` error means the wallet is empty. Buy a credit pack or a plan at https://parserail.thecompound.tech. There is no free tier and no monthly refresh.

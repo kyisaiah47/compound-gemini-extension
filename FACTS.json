@@ -1,4 +1,16 @@
 {
-  "claims": [],
-  "emptyBecause": "Reviewed README.md and GEMINI.md on 2026-09-30. The product pages describe extension behavior, installation, requirements, and ParseRail capabilities, but make no decaying world claims such as statutory deadlines, competitor prices, enforcement dates, or penalty amounts that belong in a dated-claim register."
+  "claims": [
+    {
+      "id": "parserail-no-free-tier",
+      "claim": "ParseRail has no free tier; credits are bought up front",
+      "value": "No free tier; credits are bought up front, a $20 pack or a plan from $19/mo",
+      "kind": "price",
+      "sourceUrl": "https://parserail.thecompound.tech/pricing",
+      "sourceTitle": "ParseRail pricing",
+      "asOf": "2026-10-02",
+      "appearsOn": ["README.md", "GEMINI.md", "gemini-extension.json"],
+      "lastVerified": "2026-10-02",
+      "status": "verified"
+    }
+  ]
 }

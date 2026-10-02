@@ -19,7 +19,7 @@ You'll be prompted for your ParseRail API key during install.
 
 ## Get a key
 
-Sign up at **[parserail.thecompound.tech](https://parserail.thecompound.tech)** — free, no card, **500 credits every month**. Keys look like `ksk_live_…`.
+Sign up at **[parserail.thecompound.tech](https://parserail.thecompound.tech)** and buy credits: a $20 pack or a plan from $19/mo. There is no free tier. Keys look like `ksk_live_…`.
 
 Billing is pay-per-call from a credit wallet, and **you're only charged when a call succeeds** — errors cost nothing.
 

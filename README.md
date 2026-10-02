@@ -1,13 +1,13 @@
 # ParseRail for Gemini CLI
 
-A [Gemini CLI](https://geminicli.com) extension that gives Gemini native tools for financial-document work, powered by [ParseRail](https://parserail.thecompound.tech):
+This [Gemini CLI](https://geminicli.com) extension routes financial-document work through [ParseRail](https://parserail.thecompound.tech):
 
 - **Financial-document extraction** — invoices, receipts, bank/card statements, and embedded tables → schema-validated JSON (vendor, line items, totals, normalized transactions)
 - **PII redaction** — strip names, emails, phones, SSNs, and card numbers from text before you store or log it
 - **Contract review** — parties, term, renewal, obligations, and flagged risk clauses
 - Plus general parsing, field extraction, classification, document comparison/splitting, and ~30 more tools from the same API
 
-Under the hood it wires up the [`parserail-mcp`](https://www.npmjs.com/package/parserail-mcp) MCP server.
+The extension uses the [`parserail-mcp`](https://www.npmjs.com/package/parserail-mcp) MCP server.
 
 ## Install
 
@@ -33,7 +33,7 @@ Just ask Gemini to work on a document:
 > review this contract and flag anything risky about renewal terms
 ```
 
-Gemini routes each request through the right ParseRail tool (`parserail_invoice`, `parserail_redact`, `parserail_contract`, …) and returns structured JSON. The bundled `GEMINI.md` teaches the model which tool fits which document.
+Gemini routes each request through the matching ParseRail tool (`parserail_invoice`, `parserail_redact`, `parserail_contract`, …) and returns structured JSON. The bundled `GEMINI.md` tells the model which tool fits each document.
 
 ## Requirements
 

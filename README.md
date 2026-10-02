@@ -12,7 +12,7 @@ Under the hood it wires up the [`parserail-mcp`](https://www.npmjs.com/package/p
 ## Install
 
 ```bash
-gemini extensions install https://github.com/kyisaiah47/compound-gemini-extension
+gemini extensions install https://github.com/kyisaiah47/parserail-gemini-extension
 ```
 
 You'll be prompted for your ParseRail API key during install.
